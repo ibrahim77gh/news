@@ -40,3 +40,7 @@ class HedgeView(GeneralView):
 class RockWellView(GeneralView):
     def get(self, request):
         return self.get_documents(collection_name='rockwell_collection')
+    
+class LocalnewsView(GeneralView):
+    def get(self, request):
+        return self.get_documents(collection_name='localnews_collection')

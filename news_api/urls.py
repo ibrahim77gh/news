@@ -7,4 +7,5 @@ urlpatterns = [
     path('business', views.BusinessView.as_view()),
     path('hedge', views.HedgeView.as_view()),
     path('rockwell', views.RockWellView.as_view()),
+    path('localnews', views.LocalnewsView.as_view()),
 ]
